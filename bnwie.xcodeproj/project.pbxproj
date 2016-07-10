@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 47;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		93F24DC01D32B709008E2B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F24DBE1D32B709008E2B35 /* LaunchScreen.storyboard */; };
 		93F24DCB1D32B70A008E2B35 /* bnwieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DCA1D32B70A008E2B35 /* bnwieTests.swift */; };
 		93F24DD61D32B70A008E2B35 /* bnwieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DD51D32B70A008E2B35 /* bnwieUITests.swift */; };
+		93F24F911D32BE87008E2B35 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24F901D32BE87008E2B35 /* MoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		93F24DD11D32B70A008E2B35 /* bnwieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bnwieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F24DD51D32B70A008E2B35 /* bnwieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bnwieUITests.swift; sourceTree = "<group>"; };
 		93F24DD71D32B70A008E2B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93F24F901D32BE87008E2B35 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				93F24DB31D32B709008E2B35 /* AppDelegate.swift */,
 				93F24DB51D32B709008E2B35 /* FirstViewController.swift */,
 				93F24DB71D32B709008E2B35 /* SecondViewController.swift */,
+				93F24F901D32BE87008E2B35 /* MoreViewController.swift */,
 				93F24DB91D32B709008E2B35 /* Main.storyboard */,
 				93F24DBC1D32B709008E2B35 /* Assets.xcassets */,
 				93F24DBE1D32B709008E2B35 /* LaunchScreen.storyboard */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					93F24DAF1D32B709008E2B35 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = QMCGQPFHKL;
 					};
 					93F24DC51D32B70A008E2B35 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -208,7 +212,7 @@
 				};
 			};
 			buildConfigurationList = 93F24DAB1D32B709008E2B35 /* Build configuration list for PBXProject "bnwie" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -260,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93F24DB81D32B709008E2B35 /* SecondViewController.swift in Sources */,
+				93F24F911D32BE87008E2B35 /* MoreViewController.swift in Sources */,
 				93F24DB41D32B709008E2B35 /* AppDelegate.swift in Sources */,
 				93F24DB61D32B709008E2B35 /* FirstViewController.swift in Sources */,
 			);
@@ -405,11 +410,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
 				INFOPLIST_FILE = bnwie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -417,11 +429,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FacebookSDKs-iOS-4",
+				);
 				INFOPLIST_FILE = bnwie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -490,6 +509,7 @@
 				93F24DDC1D32B70A008E2B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93F24DDD1D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "bnwieTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +518,7 @@
 				93F24DDF1D32B70A008E2B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93F24DE01D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "bnwieUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +527,7 @@
 				93F24DE21D32B70A008E2B35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

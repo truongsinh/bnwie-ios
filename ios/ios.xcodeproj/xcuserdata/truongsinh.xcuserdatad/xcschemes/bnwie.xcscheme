@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93F24DAF1D32B709008E2B35"
-               BuildableName = "bnwie.app"
-               BlueprintName = "bnwie"
-               ReferencedContainer = "container:bnwie.xcodeproj">
+               BuildableName = "ios.app"
+               BlueprintName = "ios"
+               ReferencedContainer = "container:ios.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93F24DC51D32B70A008E2B35"
-               BuildableName = "bnwieTests.xctest"
-               BlueprintName = "bnwieTests"
-               ReferencedContainer = "container:bnwie.xcodeproj">
+               BuildableName = "ios.xctest"
+               BlueprintName = "iosTests"
+               ReferencedContainer = "container:ios.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93F24DD01D32B70A008E2B35"
-               BuildableName = "bnwieUITests.xctest"
-               BlueprintName = "bnwieUITests"
-               ReferencedContainer = "container:bnwie.xcodeproj">
+               BuildableName = "ios.xctest"
+               BlueprintName = "iosUITests"
+               ReferencedContainer = "container:ios.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93F24DAF1D32B709008E2B35"
-            BuildableName = "bnwie.app"
-            BlueprintName = "bnwie"
-            ReferencedContainer = "container:bnwie.xcodeproj">
+            BuildableName = "ios.app"
+            BlueprintName = "ios"
+            ReferencedContainer = "container:ios.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93F24DAF1D32B709008E2B35"
-            BuildableName = "bnwie.app"
-            BlueprintName = "bnwie"
-            ReferencedContainer = "container:bnwie.xcodeproj">
+            BuildableName = "ios.app"
+            BlueprintName = "ios"
+            ReferencedContainer = "container:ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "93F24DAF1D32B709008E2B35"
-            BuildableName = "bnwie.app"
-            BlueprintName = "bnwie"
-            ReferencedContainer = "container:bnwie.xcodeproj">
+            BuildableName = "ios.app"
+            BlueprintName = "ios"
+            ReferencedContainer = "container:ios.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

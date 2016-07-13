@@ -17,7 +17,7 @@
 		93F24DCB1D32B70A008E2B35 /* bnwieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DCA1D32B70A008E2B35 /* bnwieTests.swift */; };
 		93F24DD61D32B70A008E2B35 /* bnwieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DD51D32B70A008E2B35 /* bnwieUITests.swift */; };
 		93F24F911D32BE87008E2B35 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24F901D32BE87008E2B35 /* MoreViewController.swift */; };
-		F5576FB45D85DE2383B70B7D /* Pods_bnwie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993DF9EF0AF66D4932E5C0FF /* Pods_bnwie.framework */; };
+		E3EF3BEDAFBF7417363082EB /* Pods_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EB214B86D14A2665061E6C /* Pods_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		35D7C39ABE7A96610EBA040E /* Pods-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-ios/Pods-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		37EB214B86D14A2665061E6C /* Pods_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFA1663A16FE6BD95DD530C /* Pods-bnwie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bnwie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bnwie/Pods-bnwie.debug.xcconfig"; sourceTree = "<group>"; };
+		74A2BC42279868A1F559FFFF /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 		93003E7E1D33E8B400B170EB /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
-		93F24DB01D32B709008E2B35 /* bnwie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bnwie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F24DB01D32B709008E2B35 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F24DB31D32B709008E2B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93F24DB51D32B709008E2B35 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		93F24DB71D32B709008E2B35 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
@@ -48,14 +51,14 @@
 		93F24DBC1D32B709008E2B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93F24DBF1D32B709008E2B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93F24DC11D32B709008E2B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93F24DC61D32B70A008E2B35 /* bnwieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bnwieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F24DC61D32B70A008E2B35 /* ios.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F24DCA1D32B70A008E2B35 /* bnwieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bnwieTests.swift; sourceTree = "<group>"; };
 		93F24DCC1D32B70A008E2B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93F24DD11D32B70A008E2B35 /* bnwieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bnwieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F24DD11D32B70A008E2B35 /* ios.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F24DD51D32B70A008E2B35 /* bnwieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bnwieUITests.swift; sourceTree = "<group>"; };
 		93F24DD71D32B70A008E2B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93F24F901D32BE87008E2B35 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
-		993DF9EF0AF66D4932E5C0FF /* Pods_bnwie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bnwie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B801E0B8F43397A15F2BDF55 /* Pods_bnwie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bnwie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C976A009AA25106C08E0BE20 /* Pods-bnwie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bnwie.release.xcconfig"; path = "Pods/Target Support Files/Pods-bnwie/Pods-bnwie.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5576FB45D85DE2383B70B7D /* Pods_bnwie.framework in Frameworks */,
+				E3EF3BEDAFBF7417363082EB /* Pods_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +93,8 @@
 			children = (
 				3EFA1663A16FE6BD95DD530C /* Pods-bnwie.debug.xcconfig */,
 				C976A009AA25106C08E0BE20 /* Pods-bnwie.release.xcconfig */,
+				35D7C39ABE7A96610EBA040E /* Pods-ios.debug.xcconfig */,
+				74A2BC42279868A1F559FFFF /* Pods-ios.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -97,9 +102,9 @@
 		93F24DA71D32B709008E2B35 = {
 			isa = PBXGroup;
 			children = (
-				93F24DB21D32B709008E2B35 /* bnwie */,
-				93F24DC91D32B70A008E2B35 /* bnwieTests */,
-				93F24DD41D32B70A008E2B35 /* bnwieUITests */,
+				93F24DB21D32B709008E2B35 /* ios */,
+				93F24DC91D32B70A008E2B35 /* iosTests */,
+				93F24DD41D32B70A008E2B35 /* iosUITests */,
 				93F24DB11D32B709008E2B35 /* Products */,
 				37A7E5B6FCBFD60B99732983 /* Pods */,
 				C4A2BDBDAC38CB56E2AB1D1F /* Frameworks */,
@@ -109,14 +114,14 @@
 		93F24DB11D32B709008E2B35 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				93F24DB01D32B709008E2B35 /* bnwie.app */,
-				93F24DC61D32B70A008E2B35 /* bnwieTests.xctest */,
-				93F24DD11D32B70A008E2B35 /* bnwieUITests.xctest */,
+				93F24DB01D32B709008E2B35 /* ios.app */,
+				93F24DC61D32B70A008E2B35 /* ios.xctest */,
+				93F24DD11D32B70A008E2B35 /* ios.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		93F24DB21D32B709008E2B35 /* bnwie */ = {
+		93F24DB21D32B709008E2B35 /* ios */ = {
 			isa = PBXGroup;
 			children = (
 				93F24DB31D32B709008E2B35 /* AppDelegate.swift */,
@@ -129,31 +134,35 @@
 				93F24DBE1D32B709008E2B35 /* LaunchScreen.storyboard */,
 				93F24DC11D32B709008E2B35 /* Info.plist */,
 			);
+			name = ios;
 			path = bnwie;
 			sourceTree = "<group>";
 		};
-		93F24DC91D32B70A008E2B35 /* bnwieTests */ = {
+		93F24DC91D32B70A008E2B35 /* iosTests */ = {
 			isa = PBXGroup;
 			children = (
 				93F24DCA1D32B70A008E2B35 /* bnwieTests.swift */,
 				93F24DCC1D32B70A008E2B35 /* Info.plist */,
 			);
+			name = iosTests;
 			path = bnwieTests;
 			sourceTree = "<group>";
 		};
-		93F24DD41D32B70A008E2B35 /* bnwieUITests */ = {
+		93F24DD41D32B70A008E2B35 /* iosUITests */ = {
 			isa = PBXGroup;
 			children = (
 				93F24DD51D32B70A008E2B35 /* bnwieUITests.swift */,
 				93F24DD71D32B70A008E2B35 /* Info.plist */,
 			);
+			name = iosUITests;
 			path = bnwieUITests;
 			sourceTree = "<group>";
 		};
 		C4A2BDBDAC38CB56E2AB1D1F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				993DF9EF0AF66D4932E5C0FF /* Pods_bnwie.framework */,
+				B801E0B8F43397A15F2BDF55 /* Pods_bnwie.framework */,
+				37EB214B86D14A2665061E6C /* Pods_ios.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		93F24DAF1D32B709008E2B35 /* bnwie */ = {
+		93F24DAF1D32B709008E2B35 /* ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93F24DDA1D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "bnwie" */;
+			buildConfigurationList = 93F24DDA1D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "ios" */;
 			buildPhases = (
 				68FF50F2E6D4F02EB075F5F8 /* [CP] Check Pods Manifest.lock */,
 				93F24DAC1D32B709008E2B35 /* Sources */,
@@ -176,14 +185,14 @@
 			);
 			dependencies = (
 			);
-			name = bnwie;
+			name = ios;
 			productName = bnwie;
-			productReference = 93F24DB01D32B709008E2B35 /* bnwie.app */;
+			productReference = 93F24DB01D32B709008E2B35 /* ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		93F24DC51D32B70A008E2B35 /* bnwieTests */ = {
+		93F24DC51D32B70A008E2B35 /* iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93F24DDD1D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "bnwieTests" */;
+			buildConfigurationList = 93F24DDD1D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "iosTests" */;
 			buildPhases = (
 				93F24DC21D32B70A008E2B35 /* Sources */,
 				93F24DC31D32B70A008E2B35 /* Frameworks */,
@@ -194,14 +203,14 @@
 			dependencies = (
 				93F24DC81D32B70A008E2B35 /* PBXTargetDependency */,
 			);
-			name = bnwieTests;
+			name = iosTests;
 			productName = bnwieTests;
-			productReference = 93F24DC61D32B70A008E2B35 /* bnwieTests.xctest */;
+			productReference = 93F24DC61D32B70A008E2B35 /* ios.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		93F24DD01D32B70A008E2B35 /* bnwieUITests */ = {
+		93F24DD01D32B70A008E2B35 /* iosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93F24DE01D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "bnwieUITests" */;
+			buildConfigurationList = 93F24DE01D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "iosUITests" */;
 			buildPhases = (
 				93F24DCD1D32B70A008E2B35 /* Sources */,
 				93F24DCE1D32B70A008E2B35 /* Frameworks */,
@@ -212,9 +221,9 @@
 			dependencies = (
 				93F24DD31D32B70A008E2B35 /* PBXTargetDependency */,
 			);
-			name = bnwieUITests;
+			name = iosUITests;
 			productName = bnwieUITests;
-			productReference = 93F24DD11D32B70A008E2B35 /* bnwieUITests.xctest */;
+			productReference = 93F24DD11D32B70A008E2B35 /* ios.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -229,7 +238,7 @@
 				TargetAttributes = {
 					93F24DAF1D32B709008E2B35 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = SLR9BHEQSM;
+						DevelopmentTeam = QMCGQPFHKL;
 					};
 					93F24DC51D32B70A008E2B35 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -241,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 93F24DAB1D32B709008E2B35 /* Build configuration list for PBXProject "bnwie" */;
+			buildConfigurationList = 93F24DAB1D32B709008E2B35 /* Build configuration list for PBXProject "ios" */;
 			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -254,9 +263,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				93F24DAF1D32B709008E2B35 /* bnwie */,
-				93F24DC51D32B70A008E2B35 /* bnwieTests */,
-				93F24DD01D32B70A008E2B35 /* bnwieUITests */,
+				93F24DAF1D32B709008E2B35 /* ios */,
+				93F24DC51D32B70A008E2B35 /* iosTests */,
+				93F24DD01D32B70A008E2B35 /* iosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,7 +310,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bnwie/Pods-bnwie-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ios/Pods-ios-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3D858161131DF1924182AC4F /* [CP] Copy Pods Resources */ = {
@@ -316,7 +325,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bnwie/Pods-bnwie-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-ios/Pods-ios-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		68FF50F2E6D4F02EB075F5F8 /* [CP] Check Pods Manifest.lock */ = {
@@ -370,12 +379,12 @@
 /* Begin PBXTargetDependency section */
 		93F24DC81D32B70A008E2B35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 93F24DAF1D32B709008E2B35 /* bnwie */;
+			target = 93F24DAF1D32B709008E2B35 /* ios */;
 			targetProxy = 93F24DC71D32B70A008E2B35 /* PBXContainerItemProxy */;
 		};
 		93F24DD31D32B70A008E2B35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 93F24DAF1D32B709008E2B35 /* bnwie */;
+			target = 93F24DAF1D32B709008E2B35 /* ios */;
 			targetProxy = 93F24DD21D32B70A008E2B35 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -437,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -477,7 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,7 +496,7 @@
 		};
 		93F24DDB1D32B70A008E2B35 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EFA1663A16FE6BD95DD530C /* Pods-bnwie.debug.xcconfig */;
+			baseConfigurationReference = 35D7C39ABE7A96610EBA040E /* Pods-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -496,16 +505,16 @@
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = bnwie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.bnwie.ios;
+				PRODUCT_NAME = ios;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		93F24DDC1D32B70A008E2B35 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C976A009AA25106C08E0BE20 /* Pods-bnwie.release.xcconfig */;
+			baseConfigurationReference = 74A2BC42279868A1F559FFFF /* Pods-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -514,9 +523,9 @@
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = bnwie/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwie;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = pro.bnwie.ios;
+				PRODUCT_NAME = ios;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -528,8 +537,8 @@
 				INFOPLIST_FILE = bnwieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bnwie.app/bnwie";
+				PRODUCT_NAME = ios;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios.app/ios";
 			};
 			name = Debug;
 		};
@@ -540,8 +549,8 @@
 				INFOPLIST_FILE = bnwieTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwieTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bnwie.app/bnwie";
+				PRODUCT_NAME = ios;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios.app/ios";
 			};
 			name = Release;
 		};
@@ -551,7 +560,7 @@
 				INFOPLIST_FILE = bnwieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ios;
 				TEST_TARGET_NAME = bnwie;
 			};
 			name = Debug;
@@ -562,7 +571,7 @@
 				INFOPLIST_FILE = bnwieUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwieUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ios;
 				TEST_TARGET_NAME = bnwie;
 			};
 			name = Release;
@@ -570,7 +579,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		93F24DAB1D32B709008E2B35 /* Build configuration list for PBXProject "bnwie" */ = {
+		93F24DAB1D32B709008E2B35 /* Build configuration list for PBXProject "ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93F24DD81D32B70A008E2B35 /* Debug */,
@@ -579,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93F24DDA1D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "bnwie" */ = {
+		93F24DDA1D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93F24DDB1D32B70A008E2B35 /* Debug */,
@@ -588,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93F24DDD1D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "bnwieTests" */ = {
+		93F24DDD1D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93F24DDE1D32B70A008E2B35 /* Debug */,
@@ -597,7 +606,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		93F24DE01D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "bnwieUITests" */ = {
+		93F24DE01D32B70A008E2B35 /* Build configuration list for PBXNativeTarget "iosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				93F24DE11D32B70A008E2B35 /* Debug */,

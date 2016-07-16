@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(
         _ application: UIApplication,
-        open url: NSURL,
+        open url: URL,
         sourceApplication: String?,
         annotation: AnyObject)
         -> Bool {

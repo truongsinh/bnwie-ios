@@ -1,13 +1,11 @@
 PODS:
-  - Bolts (1.8.3):
-    - Bolts/AppLinks (= 1.8.3)
-    - Bolts/Tasks (= 1.8.3)
-  - Bolts/AppLinks (1.8.3):
+  - Alamofire (3.4.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
     - Bolts/Tasks
-  - Bolts/Tasks (1.8.3)
-  - CocoaAsyncSocket (7.5.0):
-    - CocoaAsyncSocket/GCD (= 7.5.0)
-  - CocoaAsyncSocket/GCD (7.5.0)
+  - Bolts/Tasks (1.8.4)
   - FBSDKCoreKit (4.13.1):
     - Bolts (~> 1.7)
   - FBSDKLoginKit (4.13.1):
@@ -16,18 +14,28 @@ PODS:
     - FBSDKCoreKit
 
 DEPENDENCIES:
-  - CocoaAsyncSocket
-  - FBSDKCoreKit
-  - FBSDKLoginKit
-  - FBSDKShareKit
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `swift3`)
+  - FBSDKCoreKit (= 4.13.1)
+  - FBSDKLoginKit (= 4.13.1)
+  - FBSDKShareKit (= 4.13.1)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: swift3
+    :git: https://github.com/Alamofire/Alamofire.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: fcb4829a78d28e3491c6767cfb74e774871943b0
+    :git: https://github.com/Alamofire/Alamofire.git
 
 SPEC CHECKSUMS:
-  Bolts: 52551f96df2f8aac6b4414347f3f8353a39f1966
-  CocoaAsyncSocket: 3baeb1ddd969f81cf9fca81053ae49ef2d1cbbfa
+  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
   FBSDKCoreKit: 2807fe0da2ddb49a1469da6d6ff597f99912980f
   FBSDKLoginKit: 6d350cb6a22d6956e9d078885de6ee8a0ebc51b4
   FBSDKShareKit: c9438df7573b33780ac8c3451201c5ebb260ffca
 
-PODFILE CHECKSUM: fe10b9de3094c0164a9089f5771824572c9d79c6
+PODFILE CHECKSUM: 6fa8c579d860a65465012e990a07b0064c978e51
 
 COCOAPODS: 1.0.1

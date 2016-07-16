@@ -9,23 +9,25 @@
 import UIKit
 import FBSDKLoginKit
 class LoginVC: UIViewController {
-    private var fbLoginSuccess = false
     private let readPermissions = ["public_profile", "email", "user_friends"]
+    @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        if FBSDKAccessToken.current() != nil || fbLoginSuccess == true {
+        if let accessToken = FBSDKAccessToken.current() {
+            loginButton.isHidden = true
             performSegue(withIdentifier: "Landing2Main", sender: self)
         }
     }
 
-    @IBAction func doSignInWithFb(sender: FBSDKLoginButton, forEvent event: UIEvent) {
+    @IBAction func doSignInWithFb(_ sender: UIButton, forEvent event: UIEvent) {
         FBSDKLoginManager()
             .logIn(withReadPermissions: readPermissions, from: self, handler: handleLogin)
     }
     private func handleLogin (_ result: FBSDKLoginManagerLoginResult?, _ err: NSError?) {
+        print("FBLOGIN private func handleLogin")
             if let err = err {
             return handleLoginError(err)
 
@@ -39,18 +41,21 @@ class LoginVC: UIViewController {
         return handleLoginSuccess(result)
     }
     private func handleLoginError(_ err: NSError) {
-
+        print("FBLOGIN err")
+        print("FBLOGIN Error writing to URL: \(err)")
+        NSLog("FBLOGIN %@",err)
     }
 
     private func handleLoginUnexpected() {
-
+        print("FBLOGINunex")
     }
 
     private func handleLoginCancel() {
+        print("FBLOGINcanc")
     }
 
     private func handleLoginSuccess(_ result: FBSDKLoginManagerLoginResult) {
-        self.fbLoginSuccess = true
+        print("FBLOGINsuccess")
     }
 
 }

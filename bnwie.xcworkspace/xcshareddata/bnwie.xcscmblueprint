@@ -1,0 +1,72 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BC2F390C89F352535CE50AA9E5D45370C64B0B9D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : 0,
+    "BC2F390C89F352535CE50AA9E5D45370C64B0B9D" : 0,
+    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : 0,
+    "AB3B39DF79E140C049FAA89F0028F2088162E212" : 0,
+    "287F3CCB1287376788CD8C8A6441419AFFC4A554" : 0,
+    "AA4F32B25933CAAA5857EA2080FE655A951C6324" : 0,
+    "6D09577DC770D433CEBE622BD4B45C8CF6CB8CCC" : 0,
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B9E5F0C7-D1DD-49A0-81DC-04A45C0FCDB9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1E72C4C11736864B9AA36A7CE5A7583666A1B027" : "bnwie\/backend\/Packages\/SHA2-0.8.0\/",
+    "BC2F390C89F352535CE50AA9E5D45370C64B0B9D" : "bnwie\/",
+    "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45" : "bnwie\/backend\/Packages\/libc-0.1.0\/",
+    "AB3B39DF79E140C049FAA89F0028F2088162E212" : "bnwie\/backend\/Packages\/CryptoEssentials-0.8.0\/",
+    "287F3CCB1287376788CD8C8A6441419AFFC4A554" : "bnwie\/backend\/Packages\/HMAC-0.8.0\/",
+    "AA4F32B25933CAAA5857EA2080FE655A951C6324" : "bnwie\/backend\/",
+    "6D09577DC770D433CEBE622BD4B45C8CF6CB8CCC" : "bnwie\/backend\/Packages\/Polymorphic-0.2.0\/",
+    "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA" : "bnwie\/backend\/Packages\/Strand-1.5.1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "bnwie",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "bnwie.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/SHA2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1E72C4C11736864B9AA36A7CE5A7583666A1B027"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ketzusaka\/Strand.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "23A93BD79D6F4162360D9B57530A0BAC7A3E8EEA"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/HMAC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "287F3CCB1287376788CD8C8A6441419AFFC4A554"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qutheory\/polymorphic.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6D09577DC770D433CEBE622BD4B45C8CF6CB8CCC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qutheory\/libc.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3DA5A55949AEBD506E099F1A15BE2AA474A5D45"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/qutheory\/vapor-example",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AA4F32B25933CAAA5857EA2080FE655A951C6324"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CryptoKitten\/CryptoEssentials.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB3B39DF79E140C049FAA89F0028F2088162E212"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:truongsinh\/bnwie-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC2F390C89F352535CE50AA9E5D45370C64B0B9D"
+    }
+  ]
+}

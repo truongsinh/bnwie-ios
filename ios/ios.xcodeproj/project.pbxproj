@@ -239,13 +239,16 @@
 					93F24DAF1D32B709008E2B35 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = QMCGQPFHKL;
+						LastSwiftMigration = 0800;
 					};
 					93F24DC51D32B70A008E2B35 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 93F24DAF1D32B709008E2B35;
 					};
 					93F24DD01D32B70A008E2B35 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 93F24DAF1D32B709008E2B35;
 					};
 				};
@@ -509,6 +512,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pro.bnwie.ios;
 				PRODUCT_NAME = ios;
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -527,6 +531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pro.bnwie.ios;
 				PRODUCT_NAME = ios;
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -538,6 +543,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwieTests;
 				PRODUCT_NAME = ios;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios.app/ios";
 			};
 			name = Debug;
@@ -550,6 +556,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwieTests;
 				PRODUCT_NAME = ios;
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ios.app/ios";
 			};
 			name = Release;
@@ -561,6 +568,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwieUITests;
 				PRODUCT_NAME = ios;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = bnwie;
 			};
 			name = Debug;
@@ -572,6 +580,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.truongsinh.bnwieUITests;
 				PRODUCT_NAME = ios;
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = bnwie;
 			};
 			name = Release;

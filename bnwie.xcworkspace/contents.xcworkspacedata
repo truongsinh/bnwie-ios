@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:backend/backend.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:ios/ios.xcodeproj">
    </FileRef>
    <FileRef

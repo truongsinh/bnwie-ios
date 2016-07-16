@@ -1,0 +1,9 @@
+package: .
+import:
+- package: github.com/gin-gonic/gin
+  version: v1.0rc1
+- package: github.com/gin-gonic/contrib
+- package: github.com/Sirupsen/logrus
+  version: v0.10.0
+- package: github.com/onsi/gomega
+  version: v1.0

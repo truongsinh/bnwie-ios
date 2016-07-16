@@ -14,19 +14,19 @@ PODS:
     - FBSDKCoreKit
 
 DEPENDENCIES:
-  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `swift3`)
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, branch `swift2.3`)
   - FBSDKCoreKit (= 4.13.1)
   - FBSDKLoginKit (= 4.13.1)
   - FBSDKShareKit (= 4.13.1)
 
 EXTERNAL SOURCES:
   Alamofire:
-    :branch: swift3
+    :branch: swift2.3
     :git: https://github.com/Alamofire/Alamofire.git
 
 CHECKOUT OPTIONS:
   Alamofire:
-    :commit: fcb4829a78d28e3491c6767cfb74e774871943b0
+    :commit: 8c98469c299229847aaa69238ff65c0447f312ac
     :git: https://github.com/Alamofire/Alamofire.git
 
 SPEC CHECKSUMS:
@@ -36,6 +36,6 @@ SPEC CHECKSUMS:
   FBSDKLoginKit: 6d350cb6a22d6956e9d078885de6ee8a0ebc51b4
   FBSDKShareKit: c9438df7573b33780ac8c3451201c5ebb260ffca
 
-PODFILE CHECKSUM: 6fa8c579d860a65465012e990a07b0064c978e51
+PODFILE CHECKSUM: 471495bec6f465411fec3d99bb8486e84020cb15
 
 COCOAPODS: 1.0.1

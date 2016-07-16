@@ -16,15 +16,15 @@ class LoginVC: UIViewController {
     }
 
     override func viewDidAppear(_ animated: Bool) {
-        if let accessToken = FBSDKAccessToken.current() {
-            loginButton.isHidden = true
-            performSegue(withIdentifier: "Landing2Main", sender: self)
+        if let accessToken = FBSDKAccessToken.currentAccessToken() {
+            loginButton.hidden = true
+            performSegueWithIdentifier("Landing2Main", sender: self)
         }
     }
 
     @IBAction func doSignInWithFb(_ sender: UIButton, forEvent event: UIEvent) {
         FBSDKLoginManager()
-            .logIn(withReadPermissions: readPermissions, from: self, handler: handleLogin)
+            .logInWithReadPermissions(readPermissions, handler: handleLogin)
     }
     private func handleLogin (_ result: FBSDKLoginManagerLoginResult?, _ err: NSError?) {
         print("FBLOGIN private func handleLogin")

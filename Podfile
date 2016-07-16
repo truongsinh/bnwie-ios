@@ -5,7 +5,7 @@ target "ios" do
 	pod 'FBSDKCoreKit', '4.13.1'
 	pod 'FBSDKShareKit', '4.13.1'
 	pod 'FBSDKLoginKit', '4.13.1'
-	pod 'Alamofire',    :git => 'https://github.com/Alamofire/Alamofire.git',    :branch => 'swift3'
+	pod 'Alamofire',    :git => 'https://github.com/Alamofire/Alamofire.git',    :branch => 'swift2.3'
 end
 
 post_install do |installer|

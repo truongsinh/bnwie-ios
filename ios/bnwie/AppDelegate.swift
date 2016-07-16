@@ -27,13 +27,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(
         _ application: UIApplication,
-        open url: URL,
+        open url: NSURL,
         sourceApplication: String?,
         annotation: AnyObject)
         -> Bool {
         let handled = FBSDKApplicationDelegate.sharedInstance()
             .application(application,
-                         open: url,
+                         openURL: url,
                          sourceApplication: sourceApplication,
                          annotation: annotation)
         return handled

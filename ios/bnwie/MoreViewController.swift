@@ -18,7 +18,7 @@ class MoreViewController: UITableViewController {
 
     @IBAction func doLogOut() {
             FBSDKLoginManager().logOut()
-        performSegue(withIdentifier: "More2Landing", sender: self)
+        performSegueWithIdentifier("More2Landing", sender: self)
     }
 
     override func didReceiveMemoryWarning() {

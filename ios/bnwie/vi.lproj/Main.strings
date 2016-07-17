@@ -1,0 +1,63 @@
+
+/* Class = "UITableViewSection"; headerTitle = "I'm an makeup consumer and I'm interested in"; ObjectID = "5SN-Xq-gw5"; */
+"5SN-Xq-gw5.headerTitle" = "Mình là người dùng và mình muốn sử dụng dịch vụ";
+
+/* Class = "UILabel"; text = "About us"; ObjectID = "8de-PR-rhP"; */
+"8de-PR-rhP.text" = "About us";
+
+/* Class = "UILabel"; text = "TruongSinh Tran-Nguyen"; ObjectID = "A5M-7J-77L"; */
+"A5M-7J-77L.text" = "TruongSinh Tran-Nguyen";
+
+/* Class = "UILabel"; text = "💇🏻Hair"; ObjectID = "E57-jO-uXh"; */
+"E57-jO-uXh.text" = "💇🏻Làm tóc";
+
+/* Class = "UILabel"; text = "💇🏻Hair"; ObjectID = "EmU-KD-5UN"; */
+"EmU-KD-5UN.text" = "💇🏻Hair";
+
+/* Class = "UITableViewSection"; headerTitle = "I'm an makeup artists and I can provide service for"; ObjectID = "FCo-Sg-7co"; */
+"FCo-Sg-7co.headerTitle" = "I'm an makeup artists and I can provide service for";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "FR4-oJ-wpc"; */
+"FR4-oJ-wpc.title" = "First";
+
+/* Class = "UIButton"; normalTitle = "Sign in with Facebook"; ObjectID = "KSZ-2w-Fpf"; */
+"KSZ-2w-Fpf.normalTitle" = "Sign in with Facebook";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "Qo6-fn-91A"; */
+"Qo6-fn-91A.normalTitle" = "Log out";
+
+/* Class = "UITableViewSection"; headerTitle = "Section-2"; ObjectID = "UR9-Xl-lDt"; */
+"UR9-Xl-lDt.headerTitle" = "Section-2";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "First";
+
+/* Class = "UILabel"; text = "Privacy Policy"; ObjectID = "b15-Xj-bog"; */
+"b15-Xj-bog.text" = "Privacy Policy";
+
+/* Class = "UITextField"; text = "This text is editable"; ObjectID = "cHK-Nk-0xa"; */
+"cHK-Nk-0xa.text" = "This text is editable";
+
+/* Class = "UITabBarItem"; title = "Second"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Second";
+
+/* Class = "UILabel"; text = "💅🏼Nail"; ObjectID = "i2f-7x-MBv"; */
+"i2f-7x-MBv.text" = "💅🏼Nail";
+
+/* Class = "UILabel"; text = "👙Body"; ObjectID = "kqj-Eo-WQe"; */
+"kqj-Eo-WQe.text" = "👙Body";
+
+/* Class = "UILabel"; text = "👙Body"; ObjectID = "mHq-0C-1DK"; */
+"mHq-0C-1DK.text" = "👙Body";
+
+/* Class = "UILabel"; text = "💅🏼Nail"; ObjectID = "mc5-Sw-d16"; */
+"mc5-Sw-d16.text" = "💅🏼Nail";
+
+/* Class = "UILabel"; text = "💄Face"; ObjectID = "npa-UM-d2J"; */
+"npa-UM-d2J.text" = "💄Face";
+
+/* Class = "UILabel"; text = "💄Face"; ObjectID = "qKx-1f-eoC"; */
+"qKx-1f-eoC.text" = "💄Face";
+
+/* Class = "UILabel"; text = "Term of Service"; ObjectID = "xri-uw-vB6"; */
+"xri-uw-vB6.text" = "Term of Service";

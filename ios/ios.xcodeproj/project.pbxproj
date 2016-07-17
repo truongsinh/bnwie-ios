@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		93003E7F1D33E8B400B170EB /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93003E7E1D33E8B400B170EB /* LoginVC.swift */; };
+		933A10671D3BA5B900459CE8 /* ToggleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933A10651D3BA5B900459CE8 /* ToggleTableViewCell.swift */; };
+		933A106B1D3BC51B00459CE8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 933A10691D3BC51B00459CE8 /* Localizable.strings */; };
 		93F24DB41D32B709008E2B35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DB31D32B709008E2B35 /* AppDelegate.swift */; };
-		93F24DB61D32B709008E2B35 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DB51D32B709008E2B35 /* FirstViewController.swift */; };
+		93F24DB61D32B709008E2B35 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DB51D32B709008E2B35 /* MyProfileViewController.swift */; };
 		93F24DB81D32B709008E2B35 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DB71D32B709008E2B35 /* SecondViewController.swift */; };
 		93F24DBB1D32B709008E2B35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F24DB91D32B709008E2B35 /* Main.storyboard */; };
 		93F24DBD1D32B709008E2B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93F24DBC1D32B709008E2B35 /* Assets.xcassets */; };
-		93F24DC01D32B709008E2B35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93F24DBE1D32B709008E2B35 /* LaunchScreen.storyboard */; };
 		93F24DCB1D32B70A008E2B35 /* bnwieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DCA1D32B70A008E2B35 /* bnwieTests.swift */; };
 		93F24DD61D32B70A008E2B35 /* bnwieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24DD51D32B70A008E2B35 /* bnwieUITests.swift */; };
 		93F24F911D32BE87008E2B35 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93F24F901D32BE87008E2B35 /* MoreViewController.swift */; };
@@ -43,13 +44,15 @@
 		3EFA1663A16FE6BD95DD530C /* Pods-bnwie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bnwie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bnwie/Pods-bnwie.debug.xcconfig"; sourceTree = "<group>"; };
 		74A2BC42279868A1F559FFFF /* Pods-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios.release.xcconfig"; path = "../Pods/Target Support Files/Pods-ios/Pods-ios.release.xcconfig"; sourceTree = "<group>"; };
 		93003E7E1D33E8B400B170EB /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		932A3FB51D3B5E190009DC39 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Main.strings; sourceTree = "<group>"; };
+		933A10651D3BA5B900459CE8 /* ToggleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleTableViewCell.swift; sourceTree = "<group>"; };
+		933A106A1D3BC51B00459CE8 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
 		93F24DB01D32B709008E2B35 /* ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F24DB31D32B709008E2B35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		93F24DB51D32B709008E2B35 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		93F24DB51D32B709008E2B35 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
 		93F24DB71D32B709008E2B35 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		93F24DBA1D32B709008E2B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93F24DBC1D32B709008E2B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		93F24DBF1D32B709008E2B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93F24DC11D32B709008E2B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93F24DC61D32B70A008E2B35 /* ios.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F24DCA1D32B70A008E2B35 /* bnwieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bnwieTests.swift; sourceTree = "<group>"; };
@@ -125,13 +128,14 @@
 			isa = PBXGroup;
 			children = (
 				93F24DB31D32B709008E2B35 /* AppDelegate.swift */,
-				93F24DB51D32B709008E2B35 /* FirstViewController.swift */,
+				93F24DB51D32B709008E2B35 /* MyProfileViewController.swift */,
+				933A10651D3BA5B900459CE8 /* ToggleTableViewCell.swift */,
 				93F24DB71D32B709008E2B35 /* SecondViewController.swift */,
+				933A10691D3BC51B00459CE8 /* Localizable.strings */,
 				93F24F901D32BE87008E2B35 /* MoreViewController.swift */,
 				93003E7E1D33E8B400B170EB /* LoginVC.swift */,
 				93F24DB91D32B709008E2B35 /* Main.storyboard */,
 				93F24DBC1D32B709008E2B35 /* Assets.xcassets */,
-				93F24DBE1D32B709008E2B35 /* LaunchScreen.storyboard */,
 				93F24DC11D32B709008E2B35 /* Info.plist */,
 			);
 			name = ios;
@@ -260,6 +264,7 @@
 			knownRegions = (
 				en,
 				Base,
+				vi,
 			);
 			mainGroup = 93F24DA71D32B709008E2B35;
 			productRefGroup = 93F24DB11D32B709008E2B35 /* Products */;
@@ -278,8 +283,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93F24DC01D32B709008E2B35 /* LaunchScreen.storyboard in Resources */,
 				93F24DBD1D32B709008E2B35 /* Assets.xcassets in Resources */,
+				933A106B1D3BC51B00459CE8 /* Localizable.strings in Resources */,
 				93F24DBB1D32B709008E2B35 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,9 +359,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				93F24DB81D32B709008E2B35 /* SecondViewController.swift in Sources */,
+				933A10671D3BA5B900459CE8 /* ToggleTableViewCell.swift in Sources */,
 				93F24F911D32BE87008E2B35 /* MoreViewController.swift in Sources */,
 				93F24DB41D32B709008E2B35 /* AppDelegate.swift in Sources */,
-				93F24DB61D32B709008E2B35 /* FirstViewController.swift in Sources */,
+				93F24DB61D32B709008E2B35 /* MyProfileViewController.swift in Sources */,
 				93003E7F1D33E8B400B170EB /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,20 +399,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		933A10691D3BC51B00459CE8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				933A106A1D3BC51B00459CE8 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		93F24DB91D32B709008E2B35 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				93F24DBA1D32B709008E2B35 /* Base */,
+				932A3FB51D3B5E190009DC39 /* vi */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		93F24DBE1D32B709008E2B35 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93F24DBF1D32B709008E2B35 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -507,7 +514,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = bnwie/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.bnwie.ios;
 				PRODUCT_NAME = ios;
@@ -526,7 +533,7 @@
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(inherited)";
 				INFOPLIST_FILE = bnwie/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = pro.bnwie.ios;
 				PRODUCT_NAME = ios;

@@ -38,6 +38,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                          annotation: annotation)
         return handled
     }
+    
+    func application(
+        _ application: UIApplication,
+          openURL: NSURL,
+               sourceApplication: String?,
+               annotation: AnyObject)
+        -> Bool {
+            let handled = FBSDKApplicationDelegate.sharedInstance()
+                .application(application,
+                             openURL: openURL,
+                             sourceApplication: sourceApplication,
+                             annotation: annotation)
+            return handled
+    }
 
     func applicationWillResignActive(_ application: UIApplication) {
         /*
